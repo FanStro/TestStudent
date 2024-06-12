@@ -30,7 +30,7 @@ public class FileUploadController {
     private String getFileUrl(String filename, String basePath) {
         // 返回文件的访问 URL，这可能是一个相对路径、绝对路径或完整的 URL
         // 注意：这只是一个示例，实际实现将取决于您的应用程序和文件存储方式
-        return basePath+"\\" + filename; // 假设您有一个代理服务或 Web 服务器可以处理此路径
+        return "/product/" + filename; // 假设您有一个代理服务或 Web 服务器可以处理此路径
     }
 }
 
